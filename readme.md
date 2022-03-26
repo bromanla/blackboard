@@ -1,5 +1,7 @@
+## Development
+
 ```bash
-git clone https://github.com/bromanla/without-social.git
+git clone https://github.com/bromanla/blackboard.git
 ```
 
 Download the dependencies.
