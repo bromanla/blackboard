@@ -1,0 +1,33 @@
+{
+  "name": "blackboard",
+  "version": "1.0.1",
+  "description": "multi agent system",
+  "main": "./src/blackboard.ts",
+  "author": "Roman <bromanla.json@gmail.com>",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "clean": "tsc --build --clean",
+    "build": "tsc --build",
+    "build:clean": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "croner": "^4.3.7",
+    "dotenv": "^16.0.0",
+    "winston": "^3.6.0",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/ws": "^8.5.3",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^16.1.4",
+    "eslint-import-resolver-typescript": "^2.7.0",
+    "eslint-plugin-import": "^2.25.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}

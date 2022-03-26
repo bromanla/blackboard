@@ -1,0 +1,11 @@
+# Folders
+/node_modules
+/build
+
+# enviroment
+.env*
+!.env.project
+
+# Editor directories and files
+.idea
+.vscode
